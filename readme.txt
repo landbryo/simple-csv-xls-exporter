@@ -4,7 +4,7 @@ Contributors: Shambix, Dukessa
 Author URL: http://www.shambix.com
 Tags: csv, xls, export, excel, custom fields, custom post types, export products, export posts
 Requires at least: 4
-Tested up to: 4.7.2
+Tested up to: 4.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -124,6 +124,9 @@ Eg. `https://yoursite.com/?export=xls&post_type=portfolio&user`
 3. Settings Page
 
 == Changelog ==
+
+= Forked =
+* Fixed issue with CSV exporting with pipe
 
 = 1.4.4 =
 * Minor fixes
