@@ -279,7 +279,7 @@ function simple_csv_xls_exporter_csv_xls(){
             if(strstr($str, '"')) $str = '"' . str_replace('"', '""', $str) . '"';*/
 
             // Put the data from the new multi-dimensional array into the stream
-            fputcsv($fh, $data, '|');
+            fputcsv($fh, $data, ',');
         }
 
         // Close the file stream
